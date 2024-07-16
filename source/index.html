@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body class="font-sans">
+    <div class="flex">
+      <div
+        class="flex flex-col w-1/12 h-screen fixed left-0 top-0 bg-black text-white items-center gap-10"
+      >
+        <div class="w-full opacity-55">
+          <img class="w-full h-auto" src="./assets/man_smoke.jpg" />
+        </div>
+        <a href="#home" class="text-center w-full bg-gray-700 py-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 mx-auto"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 7h18M3 12h18M3 17h18"
+            />
+          </svg>
+          <div>HOME</div>
+        </a>
+        <a href="#about" class="text-center w-full py-2 hover:bg-gray-700">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 mx-auto"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M5 3v18M19 3v18M5 8h14M5 12h14M5 16h14"
+            />
+          </svg>
+          <div>ABOUT</div>
+        </a>
+        <a href="#photos" class="text-center py-2 w-full hover:bg-gray-700">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 mx-auto"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 7h18M3 12h18M3 17h18"
+            />
+          </svg>
+          <div>PHOTOS</div>
+        </a>
+        <a href="#contact" class="text-center py-2 w-full hover:bg-gray-700">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 mx-auto"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 11.5a8.38 8.38 0 01-1.11 4.07l-.88 1.49A5.997 5.997 0 0112 18a5.997 5.997 0 01-6.01-6.94l-.88-1.49A8.38 8.38 0 013 11.5c0-4.66 3.58-8.5 8-8.5s8 3.84 8 8.5z"
+            />
+          </svg>
+          <div>CONTACT</div>
+        </a>
+      </div>
+      <div
+        id="home"
+        class="flex flex-col w-full ml-12 items-center justify-center bg-black"
+      >
+        <div
+          class="flex flex-col w-9/12 text-center items-center justify-center text-white ml-20 p-8 my-8"
+        >
+          <h1 class="font-bold text-5xl">I'm John Doe.</h1>
+          <p class="pt-4">Photographer and Web Designer.</p>
+          <div class="pt-6 w-[11/12]">
+            <img
+              class="w-full h-auto object-cover"
+              src="./assets/man_smoke.jpg"
+              alt="John Doe"
+            />
+          </div>
+          <div id="about" class="flex flex-col w-full text-left mt-8">
+            <h3 class="font-semibold text-3xl">My Name</h3>
+            <hr class="w-32 my-4" />
+            <p class="opacity-60 font-normal text-md">
+              Some text about me. Some text about me. I am lorem ipsum
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <h3 class="mt-6 font-semibold text-3xl py-6">My Skills</h3>
+            <div class="pt-2 tracking-wider font-normal text-xl">
+              <div class="mb-2 opacity-80">Photography</div>
+              <div class="w-full bg-gray-200 h-6 mb-4">
+                <div class="bg-gray-600 h-6 w-11/12"></div>
+              </div>
+              <div class="mb-2 opacity-80">Web Design</div>
+              <div class="w-full bg-gray-200 h-6 mb-4">
+                <div class="bg-gray-600 h-6 w-10/12"></div>
+              </div>
+              <div class="mb-2 opacity-80">Photoshop</div>
+              <div class="w-full bg-gray-200 h-6 mb-4">
+                <div class="bg-gray-600 h-6 w-9/12"></div>
+              </div>
+            </div>
+            <div
+              class="flex justify-around mt-8 bg-gray-200 p-8 text-black w-full"
+            >
+              <div class="text-center">
+                <div class="text-2xl font-semibold">11+</div>
+                <div>Partners</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl font-semibold">55+</div>
+                <div>Projects Done</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl font-semibold">89+</div>
+                <div>Happy Clients</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl font-semibold">150+</div>
+                <div>Meetings</div>
+              </div>
+            </div>
+            <h3 class="font-semibold text-3xl py-14">My Price</h3>
+            <div class="flex flex-row w-full gap-4 h-auto">
+              <div
+                class="flex flex-col w-6/12 bg-white opacity-25 hover:opacity-100 text-black text-center items-center justify-between"
+              >
+                <div
+                  class="bg-gray-700 text-white w-full p-8 content-center font-semibold text-2xl"
+                >
+                  Basic
+                </div>
+                <div class="content-center border-b w-full p-5">Web Design</div>
+                <div class="content-center border-b w-full p-5">
+                  Photography
+                </div>
+                <div class="content-center border-b w-full p-5">
+                  5GB Storage
+                </div>
+                <div class="content-center border-b w-full p-5">
+                  Mail Support
+                </div>
+                <div class="content-center border-b w-full p-5">
+                  $ 10 per month
+                </div>
+                <div class="content-center w-full p-5 bg-gray-500">
+                  <button
+                    class="bg-white p-3 text-black hover:bg-black hover:text-white"
+                  >
+                    Sign up
+                  </button>
+                </div>
+              </div>
+              <div
+                class="flex flex-col w-6/12 bg-white opacity-25 hover:opacity-100 text-black text-center items-center justify-between"
+              >
+                <div
+                  class="bg-gray-700 text-white w-full p-8 content-center font-semibold text-2xl"
+                >
+                  Pro
+                </div>
+                <div class="content-center border-b w-full p-5">Web Design</div>
+                <div class="content-center border-b w-full p-5">
+                  Photography
+                </div>
+                <div class="content-center border-b w-full p-5">
+                  50GB Storage
+                </div>
+                <div class="content-center border-b w-full p-5">
+                  Endless Support
+                </div>
+                <div class="content-center border-b w-full p-5">
+                  $ 25 per month
+                </div>
+                <div class="content-center w-full p-5 bg-gray-500">
+                  <button
+                    class="bg-white p-3 text-black hover:bg-black hover:text-white"
+                  >
+                    Sign up
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h3 id="photos" class="font-semibold text-3xl pt-14">My Photos</h3>
+
+            <hr class="w-44 mt-8" />
+
+            <div
+              class="flex flex-row w-full gap-4 pt-10 justify-center content-center items-center"
+            >
+              <div class="flex flex-col w-full justify-center gap-6">
+                <div class="">
+                  <img
+                    class="object-cover w-full h-auto"
+                    src="./assets/wedding.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="">
+                  <img
+                    class="object-cover w-full h-auto"
+                    src="./assets/rocks.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="">
+                  <img
+                    class="object-cover w-full h-auto"
+                    src="./assets/sailboat.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="flex flex-col w-full justify-center gap-3">
+                <div class="">
+                  <img
+                    class="object-cover w-full h-auto"
+                    src="./assets/underwater.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="">
+                  <img
+                    class="object-cover w-full h-auto"
+                    src="./assets/chef.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="">
+                  <img
+                    class="object-cover w-full h-auto"
+                    src="./assets/wedding2.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="">
+                  <img
+                    class="object-cover w-full h-auto"
+                    src="./assets/p6.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <h3 id="contact" class="font-semibold text-3xl pt-14">
+              Contact Me
+            </h3>
+            <hr class="w-44 mt-8" />
+            <div class="flex flex-col py-4 gap-4 text-xl">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 inline"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 2c3.866 0 7 3.134 7 7 0 5.25-7 13-7 13s-7-7.75-7-13c0-3.866 3.134-7 7-7z"
+                  />
+                  <circle cx="12" cy="9" r="2.5" fill="currentColor" />
+                </svg>
+                Chicago
+              </div>
+              <div class="flex gap-2 flex-row content-center items-center">
+                <div class="w-7 bg-white border rounded">
+                  <img src="./assets/phone.png" />
+                </div>
+                Phone:+00 <span></span>151515
+              </div>
+              <div class="flex gap-2 flex-row content-center items-center">
+                <div class="w-10 bg-white border rounded">
+                  <img src="./assets/email.png" />
+                </div>
+                Email:mail@mail.com
+              </div>
+            </div>
+            <p class="opacity-25 py-4">
+              Let's get in touch. Send me a message:
+            </p>
+            <form method="POST" class="text-black">
+              <input
+                class="w-full p-4 my-2"
+                type="text"
+                name="name"
+                placeholder="Name"
+              />
+              <input
+                class="w-full p-4 my-2"
+                type="email"
+                name="email"
+                placeholder="Email"
+              />
+              <input
+                class="w-full p-4 my-2"
+                type="text"
+                name="subject"
+                placeholder="Subject"
+              />
+              <input
+                class="w-full p-4 my-2"
+                type="text"
+                name="message"
+                placeholder="Message"
+              />
+              <input
+                type="submit"
+                class="my-2 p-4 text-black"
+                value="Send Message"
+              />
+            </form>
+            <div class="pt-10 flex flex-row gap-3">
+              <div class="w-6 bg-white border rounded">
+                <img class="w-full object-cover" src="./assets/facebook.png" />
+              </div>
+              <div class="w-6 bg-white border rounded">
+                <img class="w-full object-cover" src="./assets/insta.svg" />
+              </div>
+              <div class="w-6 bg-white border rounded">
+                <img class="w-full object-cover" src="./assets/whats.png" />
+              </div>
+              <div class="w-6 bg-white border rounded">
+                <img class="w-full object-cover" src="./assets/twitter.svg" />
+              </div>
+              <div class="w-6 bg-white border rounded">
+                <img class="w-full object-cover" src="./assets/pinterest.png" />
+              </div>
+            </div>
+            <p class="py-14">Powered by <u>w3.css</u></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
